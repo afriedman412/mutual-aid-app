@@ -61,7 +61,7 @@ exports.handler = function codeSms(context, event, callback) { // eslint-disable
                 body: `
                   <Response>
                     <Message>Thanks for volunteering for this delivery but we don't have you in our records! Please <![sign up[https://airtable.com/shraIzCNdiMwW1bpP]]> to continue.</Message>
-                  </Respones>
+                  </Response>
                   `,
               })
 
